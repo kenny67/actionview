@@ -10,6 +10,6 @@ echo "stop server 停止服务"
 cd /var/www/actionview/
 # /usr/local/bin/docker-compose down
 
-##sudo rm -rf /var/www/actionview/*
+sudo rm -rf /var/www/actionview/*
 ## kill -s 9 8001
 
