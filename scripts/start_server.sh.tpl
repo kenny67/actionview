@@ -12,11 +12,13 @@ sudo chmod 775 /var/www/${PROJECT_NAME}/bootstrap/cache
 
 # 第一步  关闭docker 镜像
 cd /var/www/${PROJECT_NAME}
-/usr/local/bin/docker-compose build
-/usr/local/bin/docker-compose up -d
-# docker start laravel_cms_php_1
+#/usr/local/bin/docker-compose build
+#/usr/local/bin/docker-compose up -d
+
+
+## docker start laravel_cms_php_1
 
 # npm run dev
 # composer update
 # sudo service httpd restart
-#php artisan serve --port 80
+# php artisan serve --port 80
